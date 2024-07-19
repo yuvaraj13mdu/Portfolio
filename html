@@ -3,20 +3,179 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Yuvaraj K - Data Analyst Portfolio</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <title>Yuvaraj DA - Data Analyst</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: #fff;
+            padding: 20px;
+        }
+        .header {
+            text-align: center;
+            padding: 20px;
+        }
+        .header img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+        }
+        .header h1 {
+            margin: 10px 0;
+        }
+        .contact-info {
+            text-align: center;
+        }
+        .section {
+            margin: 20px 0;
+        }
+        .section h2 {
+            border-bottom: 2px solid #333;
+            padding-bottom: 5px;
+        }
+        .skills, .projects, .education {
+            display: flex;
+            justify-content: space-between;
+        }
+        .skills div, .projects div, .education div {
+            width: 48%;
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <h1>Yuvaraj K - Data Analyst Portfolio</h1>
-        <p>Business Analyst</p>
-        <p>Contact: sakthivel13mdu@gmail.com | 9791658714 | Madurai, Tamil Nadu</p>
-    </header>
-
-    <!-- Sections for experience, education, skills, etc. (as described in the HTML) -->
-
-    <footer>
-        <p>Connect with me on <a href="https://www.linkedin.com" target="_blank">LinkedIn</a> or reach out via email at <a href="mailto:sakthivel13mdu@gmail.com">sakthivel13mdu@gmail.com</a>.</p>
-    </footer>
+    <div class="container">
+        <div class="header">
+            <img src="file.png" alt="Yuvaraj DA">
+            <h1>Yuvaraj DA</h1>
+            <p>Data Analyst</p>
+        </div>
+        <div class="contact-info">
+            <p>Phone: 9791658714 | Email: sakthivel13mdu@gmail.com</p>
+            <p>123 Anywhere St., Any City</p>
+            <p><a href="https://lnkd.in/gqMFmQVP">LinkedIn</a></p>
+        </div>
+        <div class="section">
+            <h2>Profile</h2>
+            <p>Experienced ISP Technical Support professional skilled in customer handling and troubleshooting. Recently completed a Data Science course, proficient in data analysis, statistical modeling, and machine learning techniques. Hands-on experience in Power BI, SQL, and Python for data visualization, querying, and analysis. Seeking transition to a Data Analyst role to leverage technical expertise in interpreting complex data and delivering actionable insights for informed business decisions.</p>
+        </div>
+        <div class="section">
+            <h2>Work Experience</h2>
+            <p><strong>Technical Associate - Tech Mahindra</strong></p>
+            <ul>
+                <li>Skilled in providing detailed explanations of services and products.</li>
+                <li>Experienced with Salesforce and Siebel CRM systems.</li>
+                <li>Proficient in Outlook for email, calendar, and contact management.</li>
+                <li>Expertise in Microsoft Office integration to streamline digital communication.</li>
+            </ul>
+            <p><strong>Senior Process Associate - Prodapt Solutions</strong></p>
+            <ul>
+                <li>Provide timely and efficient customer support through chat platforms.</li>
+                <li>Effectively troubleshoot customer issues by identifying root causes.</li>
+                <li>Maintain clear and concise communication with customers.</li>
+                <li>Adhere strictly to company guidelines and policies.</li>
+            </ul>
+        </div>
+        <div class="section">
+            <h2>Education</h2>
+            <div class="education">
+                <div>
+                    <h3>Bachelor of Engineering Technology in Mechanical Engineering</h3>
+                    <p>St. Peter's Institute of Research and Higher Education, [City, State]</p>
+                    <p>July 2014 - May 2018</p>
+                    <ul>
+                        <li>Comprehensive understanding of mechanical engineering principles.</li>
+                        <li>Applied theoretical knowledge through practical coursework, laboratory experiments, and projects.</li>
+                        <li>Proficient in CAD software (e.g., AutoCAD, SolidWorks).</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Master in Data Science Program</h3>
+                    <p>GUVI, August 2023 - November 2023</p>
+                    <ul>
+                        <li>Advanced training in machine learning algorithms, statistical analysis, and predictive modeling.</li>
+                        <li>Proficient in Python, R, and SQL for data manipulation, analysis, and automation.</li>
+                        <li>Skilled in data visualization using Tableau and Power BI.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <h2>Skills</h2>
+            <div class="skills">
+                <div>
+                    <ul>
+                        <li>Data Analysis Tools: Excel, SQL, Python, Tableau, Power BI</li>
+                        <li>Communication: Clear and efficient conveyance of complex ideas</li>
+                        <li>Database Management: Data retrieval, manipulation, and custom data models</li>
+                        <li>Data Visualization: Power BI</li>
+                    </ul>
+                </div>
+                <div>
+                    <ul>
+                        <li>Statistics and Probability: Analyzing data using statistical concepts</li>
+                        <li>Programming Skills: Python, R, SQL</li>
+                        <li>Data Analysis: Extracting insights and making recommendations</li>
+                        <li>Critical Thinking: Analytical skills for solving complex problems</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <h2>Projects</h2>
+            <div class="projects">
+                <div>
+                    <h3>YouTube Data Harvesting and Warehousing</h3>
+                    <p>Chennai, September 2023 - October 2023</p>
+                    <ul>
+                        <li>Developed a Streamlit application enabling user interaction for data retrieval and analysis tasks.</li>
+                        <li>Integrated YouTube API to fetch channel and video data.</li>
+                        <li>Implemented a MongoDB data lake for storing data.</li>
+                        <li>Designed and migrated data to a SQL data warehouse.</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>PhonePe Pulse Data Visualization and Exploration</h3>
+                    <p>Chennai, October 2023 - November 2023</p>
+                    <ul>
+                        <li>Led the project leveraging Python, Streamlit, and Plotly for data visualization and exploration.</li>
+                        <li>Gathered and processed data from PhonePe's GitHub repository.</li>
+                        <li>Created an interactive dashboard for transaction data.</li>
+                        <li>Demonstrated proficiency in data analysis, visualization, and dashboard creation.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <h2>Internship Experience</h2>
+            <p><strong>CODSOFT, Chennai</strong> (August 2023 - September 2023)</p>
+            <ul>
+                <li>Analyzed large datasets using Python and data analysis libraries.</li>
+                <li>Presented data-driven recommendations to senior team members.</li>
+                <li>Utilized SQL to query databases and extract relevant data.</li>
+            </ul>
+        </div>
+        <div class="section">
+            <h2>Professional Development and Certifications</h2>
+            <ul>
+                <li>Data Visualization: "How to Use Data Visualization to Make Better Decisions—Faster" by Steve Wexler</li>
+                <li>Business Analysis: "Business Analysis: Essential Facilitation and Workshop Skills" by Jamie Champagne</li>
+                <li>Power BI: "Power BI: Dashboards for Beginners" by Joshua Rischin</li>
+                <li>Data Analytics: "Learning Data Analytics: 1 Foundations" by Robin Hunt</li>
+            </ul>
+        </div>
+        <div class="section">
+            <h2>References</h2>
+            <p><strong>Joseph Raj</strong> - Subject Matter Expert, Tech Mahindra | 8925068557 | Josephraj9575@gmail.com</p>
+            <p><strong>Babu Ganapathy</strong> - Senior Process Executive, Prodapt Solution | 9500972871 | babug45@gmail.com</p>
+        </div>
+    </div>
 </body>
 </html>
+
